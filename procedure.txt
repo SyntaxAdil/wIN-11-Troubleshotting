@@ -1,0 +1,9 @@
+Windows 11 file sharing troubleshooting methods
+1.	W + Edit group policy > Administrative Templates>Network>Lanman Workstation>Enable insecure guest logons>Enable>Apply>Save
+2.	W+ Power Shell>Run as administrator > paste the command >  
+Set-SmbClientConfiguration -RequireSecuritySignature $false
+3.	Click enter > write Y > Press enter > write exit
+4.	Win + R
+5.	\\192.168.10.39 > enter
+6.	output-
+
